@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navbar{
+	width: 100%;
+	height: 6em;
+	background-image: url(img/gunung.jpg);
+	background-size: cover;
+	padding: 10px;
+	position: relative;
+}
+.navbar ul li {
+	display:inline-block;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.navbar ul {
+	text-align: center;
+	padding-top: 37px;
+}
+.navbar ul li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.navbar ul li a:hover{
+ color: blue;
+}
+.navbar img{
+	padding: 24px;
+    width: 10%;
+    margin-right: 50px;
+    margin-top: -21px;
+    display: inline-flex;
+    position: absolute
+}
+input{
+	position: relative;
+	z-index: 1;
+	float: right;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: -37px;
+    font-size: 17px;
+	border: none;
+}
+
+button {
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.search-container button {
+	float: right;
+    padding: 6px 16px;
+    margin-top: -37px;
+    margin-right: 43px;
+    background: skyblue;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.search-container button:hover {
+	background:whitesmoke;
+  }
+.banner{
+	width: 100%;
+	height:200px;
+	background-image: url(img/edu.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.about-section{
+	background-image: url(img/pencil.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	margin: 0px 50px;
+}
+.judul{
+	text-align: center;
+	color:blue;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.content-about {
+	display: inline-flex;
+}
+
+.content img {
+	width: 70%;
+	justify-content: center;
+	display: flex;
+	
+}
+.paragraph{
+	font-family: Arial,
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+.paragraph h2{
+	color: blue;
+}
+.pengalaman {
+	font-family: Arial;
+	padding: 20px;
+	font-weight: bold;
+	
+}
+.section-skill{
+	background-image: url(img/programmers.jpg);
+	margin : 0px 50px;
+	background-position: bottom;
+	background-attachment: fixed;
+	justify-content: center;
+	padding: 20px;
+}
+.iconskill{
+	display: flex;
+	margin-left: 88px;
+	margin-right: -41x;
+}
+.section-skill .judul1{
+	text-align: center;
+	color:antiquewhite;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.section-skill .html img{
+	width: 30%;
+	justify-content: center;
+	margin-left: 50px;
+}
+.section-skill .css img{
+	width: 30%;
+	justify-content: center;
+}
+.section-skill .javascript img{
+	width: 30%;
+	justify-content: center;
+}
+.section-skill .mysql img{
+	width: 30%;
+	justify-content: center;
+}
+.footer{
+	padding: 30px;
+	justify-content: center;
+	background: black;
+}
+.footer{
+	width: 100%;
+	height: 3em;
+	background-color: #263a63;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 10px;
+}
+.footer .left {
+	flex: 1;
+	font-size: 20;
+	color:whitesmoke;
+	padding: 6px;
+	flex-direction: row;
+	align-items: center;
+}
+.footer .left a{
+	text-decoration:none;
+	color:whitesmoke;
+	margin-right: 8px;
+}
